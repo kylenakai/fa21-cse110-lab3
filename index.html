@@ -5,7 +5,7 @@
         <link rel="icon" href="screenshots/favicon.ico">
         <meta name="author" content="Kyle Nakai">
         <meta name="description" content="CSE110 Lab2, HTML">
-        <link rel="icon" size="16x16" href="favicon.ico">
+        <link rel="icon" href="favicon.ico">
     </head>
     <body>
         <header>
@@ -52,70 +52,70 @@
                 <source src="https://ia800701.us.archive.org/7/items/The_Four_Seasons_Vivaldi-10361/John_Harrison_with_the_Wichita_State_University_Chamber_Players_-_01_-_Spring_Mvt_1_Allegro.mp3"> 
             </audio>
             <h3> Meeting Video: </h3>
-            <video controls="true">
+            <video controls>
                 <source src="https://ia801305.us.archive.org/28/items/KanedaPlusAkira/Kaneda%20%2B%20Akira-xS6BEWE57Ak.mp4">
                 Your browser doeas not support HTML5 Video
             </video>
         </div>
+        <footer>
+            <p> Author: Kyle Nakai <br> Contact: ktnakai@ucsd.edu</p>
+            <p>You have <span style="color:gold">SWAG</span></p>
+            <h5> Objectives:</h5>
+            <ol>
+                <li>Cash</li>
+                <li><i>Money</i></li>
+                <li> <b> Honor</b> </li>
+            </ol>
+        </footer>
+        <form>
+            <h3> Info Form </h3>
+            <fieldset>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+            </fieldset>
+            <h3>Grade:</h3>
+            <input type="checkbox" id="opt1" name="opt1" value="Freshman">
+            <label for="opt1">Freshman</label> <br>
+            <input type="checkbox" id="opt2" name="opt2" value="Sophmore">
+            <label for="opt2">Sophmore</label> <br>
+            <input type="checkbox" id="opt3" name="opt3" value="Junior">
+            <label for="opt3">Junior</label> <br>
+            <input type="checkbox" id="opt4" name="opt4" value="Senior">
+            <label for="opt4">Senior</label> <br>
+    
+            <h3>Swag Level:</h3>
+            <input type="radio" id="none" name="level" value="NONE">
+            <label for="none">NONE</label> <br>
+            <input type="radio" id="extreme" name="level" value="EXTREME">
+            <label for="extreme">EXTREME</label> <br> <br>
+    
+            <label for="tdate">Today's Date:</label>
+            <input type="date" id="tdate" name="tdate">
+        </form>
+        <br>
+        <label for="tbox">Usuer Comments:</label>
+        <textarea id="tbox" name="tbox" rows="5" cols="40">
+            Write your heart's story on this page.
+        </textarea>
+        <br>
+        <br>
+        <label for="icream">Choose the best ice cream:</label>
+        <input list="icream" name="icream" id="icream">
+        <datalist id="icream">
+            <option value="Vailla">
+            <option value="Choclate">
+            <option value="Cookies 'n' Cream">
+            <option value="pizzs">
+        </datalist>
+        <br>
+        <label for="fish">Choose a "fish":</label>
+        <select name="fish" id="fish">
+            <option value="shark">Shark</option>
+            <option value="eel">Eel</option>
+            <option value="whale">Whale</option>
+        </select>
+        <br>
+        <br>
+        <button type="button">DON'T CLICK PLS!!!</button>
     </body>
-    <footer>
-        <p> Author: Kyle Nakai <br> Contact: ktnakai@ucsd.edu</p>
-        <p>You have <span style="color:gold">SWAG</span></p>
-        <h5> Objectives:</h5>
-        <ol>
-            <li>Cash</li>
-            <li><i>Money</i></li>
-            <li> <b> Honor</b> </li>
-        </ol>
-    </footer>
-    <form>
-        <h3> Info Form </h3>
-        <fieldset>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
-        </fieldset>
-        <h3>Grade:</h3>
-        <input type="checkbox" id="opt1" name="opt1" value="Freshman">
-        <label for="opt1">Freshman</label> <br>
-        <input type="checkbox" id="opt2" name="opt2" value="Sophmore">
-        <label for="opt2">Sophmore</label> <br>
-        <input type="checkbox" id="opt3" name="opt3" value="Junior">
-        <label for="opt3">Junior</label> <br>
-        <input type="checkbox" id="opt4" name="opt4" value="Senior">
-        <label for="opt4">Senior</label> <br>
-
-        <h3>Swag Level:</h3>
-        <input type="radio" id="none" name="level" value="NONE">
-        <label for="none">NONE</label> <br>
-        <input type="radio" id="extreme" name="level" value="EXTREME">
-        <label for="extreme">EXTREME</label> <br> <br>
-
-        <label for="tdate">Today's Date:</label>
-        <input type="date" id="tdate" name="tdate">
-    </form>
-    <br>
-    <label for="tbox">Usuer Comments:</label>
-    <textarea id="tbox" name="tbox" rows="5" cols="40">
-        Write your heart's story on this page.
-    </textarea>
-    <br>
-    <br>
-    <label for="icream">Choose the best ice cream:</label>
-    <input list="icream" name="icream" id="icream">
-    <datalist id="icream">
-        <option value="Vailla">
-        <option value="Choclate">
-        <option value="Cookies 'n' Cream">
-        <option value="pizzs">
-    </datalist>
-    <br>
-    <label for="fish">Choose a "fish":</label>
-    <select name="fish" id="fish">
-        <option value="shark">Shark</option>
-        <option value="eel">Eel</option>
-        <option value="whale">Whale</option>
-    </select>
-    <br>
-    <br>
-    <button type="button">DON'T CLICK PLS!!!</button>
 </html>

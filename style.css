@@ -1,5 +1,10 @@
-h4 {
-    color: red;
+@font-face {
+    font-family: "myfont";
+    src: url("Pacifico-Regular.ttf");
+}
+h4, h3 {
+    color: rgb(51, 30, 30);
+    font-family: "myfont";
 }
 h3 {
     font-size: 25px;
@@ -12,9 +17,93 @@ h2 {
 h1 {
     font-size: 1in;
     line-height: 2cm;
+    margin: auto;
+    text-align: center;
+    font-family: "myfont";
 }
 .box {
-    border: 10px solid greenyellow;
+    border-radius: 10px;
+    border-color: orange;
     background-color: lightyellow;
-    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display:inline-block;
+}
+.items {
+    margin: 10px, 20px, 30px, 40px;
+    padding: 50px, 25px, 12px, 6px;
+    border-style: ridge;
+    border-width: 50px;
+    display: block;
+}
+.special {
+    text-decoration: underline black;
+    height: 100px;
+    width: 200px;
+    border: 10px red;
+    position: absolute right;
+
+}
+h5 {
+    max-width: 100px;
+}
+ol {
+    min-width: 05vw;
+}
+#name {
+    position: static;
+    color: springgreen;
+}
+button:hover {
+    color: red;
+}
+button:active {
+    color: greenyellow;
+}
+.user {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    margin: auto;
+    border-radius: 10px;
+    background-color: violet;
+}
+.grades {
+    display: grid;
+    justify-items: flex-start;
+    align-items: stretch;
+    align-content: center;
+}
+@media only screen and (max-width: 1000px) {
+    body {
+        background-color: yellow;
+    }
+}
+* {
+    background-color: mediumpurple;
+}
+#fish {
+    color: greenyellow;
+}
+a[href*="http://"] {
+    background-color: skyblue;
+}
+body header {
+    text-decoration: underline;
+}
+.grades > label {
+    text-decoration: underline;
+}
+h2 ~ img {
+    text-decoration: line-through;
+}
+audio + h3 {
+    font-weight: bold;
 }

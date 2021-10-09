@@ -1,0 +1,20 @@
+h4 {
+    color: red;
+}
+h3 {
+    font-size: 25px;
+    line-height: 0.5vh;
+    border-width: 0.75vw;
+}
+h2 {
+    font-size: 2em;
+}
+h1 {
+    font-size: 1in;
+    line-height: 2cm;
+}
+.box {
+    border: 10px solid greenyellow;
+    background-color: lightyellow;
+    
+}
